@@ -1,0 +1,23 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Hanlding Updates
+-----------------------------------------------------------------*/
+
+
+
+
+.bgcolor,
+.bgcolor #header-wrap { background-color: #072c3a !important; }
+
+.color { color: #072c3a !important; }
+
+.border-color { border-color: #072c3a !important; }
+.footer-logo { color: #146583 !important; }
+
+#primary-menu ul li:hover > a,
+	#primary-menu ul li.current > a {
+		background-color: #146583;
+		color: #FFF !important;
+	}
